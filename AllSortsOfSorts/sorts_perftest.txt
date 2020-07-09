@@ -1,0 +1,40 @@
+[테스트 케이스]
+   - Case  1: 랜덤 리스트 (요소 중복)
+   - Case  2: 랜덤 리스트
+   - Case  3: 순차 증가 리스트 (정렬됨)
+   - Case  4: 순차 감소 리스트 (역정렬됨)
+   - Case  5: 2단계 순차 증가 리스트
+   - Case  6: 2단계 순차 감소 리스트
+   - Case  7: 대체로 정렬된 리스트
+   - Case  8: 특정 값이 돌출된 랜덤 리스트
+
+[실행 시간]
+   -                 Cases:     Case  1      Case  2      Case  3      Case  4      Case  5      Case  6      Case  7      Case  8      Average     Std.Dev.  
+   -        Selection Sort:       65 ms        64 ms        56 ms        78 ms        64 ms        60 ms        62 ms        85 ms      66.8 ms       9.1 ms  
+   -           Bubble Sort:      172 ms       162 ms        72 ms       211 ms       128 ms       181 ms        88 ms       148 ms     145.2 ms      44.1 ms  
+   -            Quick Sort:        4 ms         4 ms       147 ms       121 ms       105 ms        47 ms        11 ms         5 ms      55.5 ms      55.9 ms  
+   -        Insertion Sort:       79 ms        79 ms        <1 ms       145 ms        32 ms       105 ms         9 ms        83 ms      66.5 ms      46.3 ms  
+   -            Merge Sort:        5 ms         5 ms         4 ms         4 ms         8 ms        10 ms         6 ms         5 ms       5.9 ms       2.0 ms  
+   -             Heap Sort:        8 ms         8 ms        16 ms         6 ms         9 ms        12 ms         7 ms         9 ms       9.4 ms       3.0 ms  
+   -         Counting Sort:       <1 ms        <1 ms         1 ms        <1 ms        <1 ms        <1 ms        <1 ms       392 ms      49.1 ms     129.6 ms  
+   -            Radix Sort:        4 ms         4 ms         5 ms         4 ms         5 ms         5 ms         5 ms         4 ms       4.5 ms        <1 ms  
+   -           Bucket Sort:        3 ms         2 ms         2 ms         2 ms         2 ms         2 ms         1 ms         5 ms       2.4 ms       1.1 ms  
+   -            Shell Sort:        9 ms         6 ms         2 ms         3 ms         2 ms         5 ms         4 ms         6 ms       4.6 ms       2.2 ms  
+   -              Tim Sort:        5 ms         3 ms         1 ms         6 ms         1 ms         5 ms         2 ms         4 ms       3.4 ms       1.8 ms  
+   -             Comb Sort:        6 ms         3 ms         2 ms         4 ms         3 ms         3 ms         3 ms         8 ms       4.0 ms       1.9 ms  
+   -       Pigeonhole Sort:       <1 ms        <1 ms        <1 ms        <1 ms        <1 ms        <1 ms        <1 ms       547 ms      68.4 ms     180.9 ms  
+   -            Cycle Sort:      197 ms       158 ms        45 ms       103 ms       122 ms       172 ms        40 ms       141 ms     122.2 ms      53.4 ms  
+   -         Cocktail Sort:      146 ms       130 ms        <1 ms       395 ms       178 ms       239 ms        24 ms       152 ms     158.0 ms     115.7 ms  
+   -           Strand Sort:       15 ms        18 ms        <1 ms       215 ms         1 ms        88 ms         5 ms        16 ms      44.8 ms      69.6 ms  
+   -          Bitonic Sort:       27 ms        27 ms        28 ms        22 ms        24 ms        19 ms        19 ms        27 ms      24.1 ms       3.5 ms  
+   -          Pancake Sort:       30 ms        33 ms        26 ms        28 ms        24 ms        23 ms        29 ms        35 ms      28.5 ms       3.9 ms  
+   - Binary Insertion Sort:       68 ms        60 ms         3 ms       143 ms        37 ms        68 ms        11 ms        69 ms      57.4 ms      40.7 ms  
+   -            Gnome Sort:      186 ms       204 ms        <1 ms       404 ms        92 ms       284 ms        24 ms       273 ms     183.4 ms     129.7 ms  
+   -            Brick Sort:      206 ms       190 ms        <1 ms       286 ms        80 ms       225 ms        66 ms       149 ms     150.2 ms      89.0 ms  
+   -             Bead Sort:      243 ms       244 ms       203 ms       280 ms       252 ms       264 ms       213 ms   196,424 ms  24,765.4 ms  64,880.9 ms  
+   -      Binary Tree Sort:       16 ms         6 ms       215 ms       239 ms       157 ms       131 ms        46 ms         4 ms     101.8 ms      90.0 ms  
+   -    Introspective Sort:        8 ms         3 ms       186 ms         5 ms       117 ms        62 ms        10 ms         8 ms      49.9 ms      63.7 ms  
+   -         Patience Sort:        3 ms         3 ms        <1 ms        68 ms         1 ms        22 ms         1 ms         3 ms      12.6 ms      22.0 ms  
+   -           Smooth Sort:       14 ms        14 ms        16 ms        11 ms        12 ms        16 ms        18 ms        14 ms      14.4 ms       2.1 ms  
+   -       Tournament Sort:        6 ms         8 ms         7 ms         9 ms         6 ms        16 ms        14 ms        17 ms      10.4 ms       4.3 ms  
+   -           Spread Sort:        1 ms         2 ms         2 ms         1 ms         1 ms         1 ms         2 ms         4 ms       1.8 ms       1.0 ms  
